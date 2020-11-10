@@ -10,9 +10,11 @@ const UpVoteSection = ({ articleName, upvotes, setArticleInfo }) => {
   };
 
   return (
-    <div>
-      <button onClick={() => upvoteArticle()}>Add Upvote</button>
-      <p>This post has been upvoted {upvotes} times</p>
+    <div className="d-flex flex-row mt-2 mb-2 justify-content-end">
+      <button onClick={() => upvoteArticle()}>
+        <i className="far fa-thumbs-up"></i>
+      </button>
+      <p className="ml-2 font-weight-bold"> {upvotes} Upvotes!</p>
     </div>
   );
 };

@@ -19,28 +19,35 @@ const AddCommentForm = ({ articleName, setArticleInfo }) => {
   };
 
   return (
-    <div id="add-comment-form">
-      <h3>Add a Comment</h3>
-      <label>
-        Name:
+    <>
+      <h3 className="display-6 mt-3 mb-3">Add a Comment</h3>
+      <div id="add-comment-form" className="form-group mb-3">
+        <label className=" font-weight-bold">Name:</label>
         <input
+          placeholder="Full name"
+          className="form-control"
           type="text"
           value={username}
           onChange={(event) => setUsername(event.target.value)}
         ></input>
-      </label>
-      <label>
-        Comment:
+
+        <label className="font-weight-bold">Comment:</label>
         <textarea
+         placeholder="This article is awesome!!"
+          className="form-control"
           rows="4"
           cols="50"
           value={comment}
           onChange={(event) => setComment(event.target.value)}
         ></textarea>
-      </label>
-      <textarea rows="4" cols="50"></textarea>
-      <button onClick={() => addComment()}>Add Comment</button>
-    </div>
+      </div>
+      <button
+        className="float-right font-weight-bold btn btn-outline-dark"
+        onClick={() => addComment()}
+      >
+        Add Comment
+      </button>
+    </>
   );
 };
 
