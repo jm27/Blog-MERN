@@ -42,8 +42,8 @@ const articles = [
     ],
   },
   {
-    name: "learn-mongodb",
-    title: "The best Way to learn Mongo DB",
+    name: "my-thoughts-on-resumes",
+    title: "My-thoughts-on-resumes",
     content: [
       ` "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
             praesentium voluptatum deleniti atque corrupti quos dolores et quas
