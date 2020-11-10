@@ -3,10 +3,10 @@ import ArticlesList from "../Components/ArticlesList";
 import articleContent from "./article-content";
 
 const ArticlesListPage = () => (
-  <Fragment>
-    <h1>List of Articles </h1>
+  <div className="jumbotron">
+    <h1 className="text-center pb-3 display-4"><u>List of Articles</u></h1>
     <ArticlesList articles={articleContent}></ArticlesList>
-  </Fragment>
+  </div>
 );
 
 export default ArticlesListPage;

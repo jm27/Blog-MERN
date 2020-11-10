@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 
 const AboutPage = () => (
-  <Fragment>
-    <h1>About Me</h1>
-    <p>
+  <div className="jumbotron">
+    <h1 className="text-center pb-3 display-4"><u>About Me</u></h1>
+    <p className="lead font-weight-normal pl-2 pr-2">
       "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
       praesentium voluptatum deleniti atque corrupti quos dolores et quas
       molestias excepturi sint occaecati cupiditate non provident, similique
@@ -17,7 +17,7 @@ const AboutPage = () => (
       tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
       consequatur aut perferendis doloribus asperiores repellat."
     </p>
-    <p>
+    <p className="lead font-weight-normal pl-2 pr-2">
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -26,7 +26,7 @@ const AboutPage = () => (
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum."
     </p>
-    <p>
+    <p className="lead font-weight-normal pl-2 pr-2">
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -35,7 +35,7 @@ const AboutPage = () => (
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum."
     </p>
-  </Fragment>
+  </div>
 );
 
 export default AboutPage;

@@ -28,7 +28,6 @@ const ArticlePage = ({ match }) => {
   );
 
   return (
-    <Fragment>
       <div className="jumbotron">
       <h1 className="text-center pb-3 display-4"><u>{article.title}</u></h1>
       <UpVoteSection
@@ -48,10 +47,11 @@ const ArticlePage = ({ match }) => {
         articleName={name}
         setArticleInfo={setArticleInfo}
       ></AddCommentForm>
-      </div>
-      <h3>Related Articles</h3>
+      <br></br>
+      <hr className="my-4"/>
+      <h3 className="text-center display-6 mt-3 mb-3">Related Articles</h3>
       <ArticlesList articles={otherArticles}></ArticlesList>
-    </Fragment>
+      </div>
   );
 };
 

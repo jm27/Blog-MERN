@@ -40,13 +40,15 @@ const AddCommentForm = ({ articleName, setArticleInfo }) => {
           value={comment}
           onChange={(event) => setComment(event.target.value)}
         ></textarea>
-      </div>
-      <button
-        className="float-right font-weight-bold btn btn-outline-dark"
+              <button
+        className="float-right mt-3 font-weight-bold btn btn-outline-dark"
         onClick={() => addComment()}
       >
         Add Comment
       </button>
+      </div>
+
+      
     </>
   );
 };
