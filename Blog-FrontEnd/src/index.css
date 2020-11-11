@@ -3,6 +3,8 @@
 }
 
 .far,
-.fa{
+.fa,
+.fab,
+.fas{
   font-family: "Font Awesome 5 Pro" !important;
 }

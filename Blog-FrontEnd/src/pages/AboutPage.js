@@ -1,39 +1,80 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 const AboutPage = () => (
   <div className="jumbotron">
-    <h1 className="text-center pb-3 display-4"><u>About Me</u></h1>
-    <p className="lead font-weight-normal pl-2 pr-2">
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-      praesentium voluptatum deleniti atque corrupti quos dolores et quas
-      molestias excepturi sint occaecati cupiditate non provident, similique
-      sunt in culpa qui officia deserunt mollitia animi, id est laborum et
-      dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-      Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-      impedit quo minus id quod maxime placeat facere possimus, omnis voluptas
-      assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut
-      officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates
-      repudiandae sint et molestiae non recusandae. Itaque earum rerum hic
-      tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
-      consequatur aut perferendis doloribus asperiores repellat."
+    <h1 className="text-center pb-3 display-4">
+      <u>About Me</u>
+    </h1>
+    <img
+      className="rounded mx-auto d-block img-fluid img-thumbnail"
+      alt="Profile-pic blog-pic"
+      src="./imgs/Profile-pic.jpg"
+      style={{ height: "300px;", width: "300px" }}
+    ></img>
+    <p className="lead font-weight-normal pl-2 mt-3 pr-2">
+      "Hi<span>🖐</span>, Nice to meet you<span>😁</span>! My name is Jesus and
+      I am a Full Stack Web Developer<span>💻</span>with a background BS in
+      Business<span>💱</span>. Recently I have been working as a Front end
+      developer for a startup🎓. With skills🧰 in HTML, CSS,
+      JavaScript, Node.js, Express.js, React.js, SQL, MongoDB, Responsive web
+      design<span>📱</span>and eager to learn more
+      <span>👦</span>!"
     </p>
     <p className="lead font-weight-normal pl-2 pr-2">
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum."
+      "I am passionate about web development, when I am building applications or
+      doing research, I feel focus and time goes faster<span>&#9193;</span>.
+      Although sometimes I can get frustrated for not being able to fix a bug,
+      the feeling afterwards when the bug is fixed and the app is running
+      smoothly, outweighs the frustration<span>&#128588;</span>. Also learning
+      new things every day motivates me to keep going. I love learning new
+      technologies, applying the knowledge, and sharing what I learned{" "}
+      <span>&#128171;</span>."
     </p>
     <p className="lead font-weight-normal pl-2 pr-2">
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum."
+      "On my free-time, I like to spend time with my family
+      <span>&#128106;</span>, play video games<span>&#127918;</span>, going on
+      long walks with my dog <span>&#128041;</span>, reading books
+      <span>&#128218;</span>, watching movies and series<span>&#127916;</span>."
+    </p>
+
+    <p className="lead font-weight-normal pl-2 pr-2">
+      "Lets connect thru{" "}
+      <a
+        href="https://www.linkedin.com/in/j-esquer/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </a>
+      "<br></br>
+      "Shoot me an{" "}
+      <a
+        href="mailto:jme2791@gmail.com?Subject=Hello"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        E-mail
+      </a>
+      "<br></br>
+      "Check out my{" "}
+      <a
+        href="https://jm27.github.io/Portfolio-React/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {" "}
+        Personal Portfolio
+      </a>
+      "<br></br>
+      "More repos on my{" "}
+      <a
+        href="https://github.com/jm27"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Github profile
+      </a>
+      "
     </p>
   </div>
 );
