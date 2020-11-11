@@ -5,6 +5,7 @@ const NavBar = () => (
   <nav className="navbar navbar-dark bg-dark navbar-expand-lg ">
     <Link className="navbar-brand" to="/">
       JE Blog
+      <i id="spin" class="fa fa-cog fa-spin fa-2x fa-fw" aria-hidden="true"></i>
     </Link>{" "}
     <button
       className="navbar-toggler"

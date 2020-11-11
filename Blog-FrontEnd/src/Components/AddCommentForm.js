@@ -22,7 +22,7 @@ const AddCommentForm = ({ articleName, setArticleInfo }) => {
     <>
       <h3 className="display-6 mt-3 mb-3">Add a Comment</h3>
       <div id="add-comment-form" className="form-group mb-3">
-        <label className=" font-weight-bold">Name:</label>
+        <label className="font-weight-bold">Name:</label>
         <input
           placeholder="Full name"
           className="form-control"
