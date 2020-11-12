@@ -12,10 +12,10 @@ const AboutPage = () => (
       style={{ height: "300px;", width: "300px" }}
     ></img>
     <p className="lead font-weight-normal pl-2 mt-3 pr-2">
-      "Hi<span>🖐</span>, Nice to meet you<span>😁</span>! My name is Jesus and
-      I am a Full Stack Web Developer<span>💻</span>with a background BS in
+      "Hi<span>🖐</span>, Nice to meet you<span>😁</span>! My name is Jesus Esquer and
+      I am a Full Stack Developer<span>💻</span>with a background BS in
       Business<span>💱</span>. Recently I have been working as a Front end
-      developer for a startup🎓. With skills🧰 in HTML, CSS,
+      developer for a startup<span>&#128170;</span>. With skills🧰 in HTML, CSS,
       JavaScript, Node.js, Express.js, React.js, SQL, MongoDB, Responsive web
       design<span>📱</span>and eager to learn more
       <span>👦</span>!"
@@ -25,7 +25,7 @@ const AboutPage = () => (
       doing research, I feel focus and time goes faster<span>&#9193;</span>.
       Although sometimes I can get frustrated for not being able to fix a bug,
       the feeling afterwards when the bug is fixed and the app is running
-      smoothly, outweighs the frustration<span>&#128588;</span>. Also learning
+      smoothly<span>&#128640;</span>, outweighs the frustration<span>&#128588;</span>. Also learning
       new things every day motivates me to keep going. I love learning new
       technologies, applying the knowledge, and sharing what I learned{" "}
       <span>&#128171;</span>."
