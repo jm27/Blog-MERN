@@ -78,7 +78,7 @@ app.post("/api/articles/:name/add-comment", (req, res) => {
     res.status(200).json(updatedArticleInfo);
   }, res);
 });
-// All requests that are caught should pass to our app
+// All requests that are caught by any api route should pass to our app
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname + "/build/index.html"));
 });

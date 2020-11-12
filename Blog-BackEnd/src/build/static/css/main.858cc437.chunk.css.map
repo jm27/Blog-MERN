@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,EACE,yCACF,CAEA,mBAIE,0CACF","file":"main.858cc437.chunk.css","sourcesContent":["* {\n  font-family: \"Roboto\", sans-serif !important;\n}\n\n.far,\n.fa,\n.fab,\n.fas{\n  font-family: \"Font Awesome 5 Pro\" !important;\n}"]}
