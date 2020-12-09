@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import ArticlesList from "../Components/ArticlesList";
 import articleContent from "./article-content";
 
