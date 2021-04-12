@@ -38,7 +38,7 @@ Here are some of the Application features:
 
 ## Visit Demo Site
 
-# [BlOG-MERN LINK](https://bit.ly/3kMkn10 "Homepage")
+# [BlOG-MERN LINK](http://ec2-3-138-155-249.us-east-2.compute.amazonaws.com/ "Homepage")
 
 ## Built With
 
